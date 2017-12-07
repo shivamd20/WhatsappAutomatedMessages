@@ -1,5 +1,5 @@
 # Whatsapp Text Scheduler
-The simple javascript code will make you send scheduled birthday wishes, reminders etc on whatsapp.
+A simple javascript code will make you send scheduled birthday wishes, reminders etc on whatsapp.
 
 <h1> Prerequisite  </h1>
  Desktop browser
