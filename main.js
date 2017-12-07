@@ -10,15 +10,10 @@ var count = 0;
     button.click();}
 
 
-function birthdayMessage( bdate,msg){
 
-    window.setInterval(function(){ // Set interval for checking
-        var date = new Date(); // Create a Date object to find out what time it is
-        if(date.getHours() === bdate.getHours() && date.getMinutes() === bdate.getMinutes() && 
-        date.getDay()===bdate.getDay() && date.getFullYear===bdate.getFullYear()){ 
-
-            sendMessage(msg);
-
-        }
-    }, 60000);
-}
+   window.setInterval(function(){ // Set interval for checking
+    var date = new Date(); // Create a Date object to find out what time it is
+    if(date.getHours() === 8 && date.getMinutes() === 0){ // Check the time
+        // Do stuff
+    }
+}, 60000);
