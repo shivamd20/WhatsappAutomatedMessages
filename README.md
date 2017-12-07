@@ -9,7 +9,7 @@ A simple javascript code will make you send scheduled birthday wishes, reminders
 <br>
 1. Log in to Whatsapp web on the browser <a href= "https://web.whatsapp.com" target="_blank">from here</a> <br>
 2. Copy the code  <a href="https://raw.githubusercontent.com/shivamd20/WhatsappAutomatedMessages/master/main.js" target="_blank"> from here</a> <br>
-3. Open the console of your browser in which the whatsapp web is running. (Press Ctrl +Shift+I) and paste the copied code.<br>
+3. Open the console of your browser in which the whatsapp web is running. (Press Ctrl +Shift+I) and paste the copied code then hit enter.<br>
 4. Now open the chat screen of the person you want to send Message to.<br>
 5. Now on the console window write wishOnTime(hour,min,msg) and press enter.<br>
 here " hour and msg" is time at which you want to send the message and the msg is the Message you want to send to.<br>
