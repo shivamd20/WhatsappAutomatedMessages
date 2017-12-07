@@ -20,8 +20,8 @@ var count = 0;
     }
     else{
 
-        alert(date.getHours()+"r"+date.getMinutes());
+        console.log('waiting to wish birthday'+date.getMinutes()+"h"+date.getHours());
 
     }
 }, 60000);
-    }
+}
