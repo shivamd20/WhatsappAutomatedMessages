@@ -10,11 +10,15 @@ var count = 0;
     button.click();}
 
 
+function birthdayMessage( bdate,msg){
 
-    var chats=document.getElementsByClassName('emojitext ellipsify');
-    
-    for(let i=0;i<chats.length;i++)
+    window.setInterval(function(){ // Set interval for checking
+        var date = new Date(); // Create a Date object to find out what time it is
+        if(date.getHours() === bdate.getHours() && date.getMinutes() === bdate.getMinutes() && 
+        date.getDay()===bdate.getDay() && date.getFullYear===bdate.getFullYear()){ 
 
-        console.log(chats[i].innerHTML);
-        
- 
+            sendMessage(msg);
+
+        }
+    }, 60000);
+}
